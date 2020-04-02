@@ -3,9 +3,12 @@
 This project is mean for make the gRPC code generation easy.
 
 ## How to use
-1. Clone this repository to your workspace. 
+Since each of the Java app using gRPC should separate API interfaces from the actual implementation, it would be convenient if we use a scaffold project for helping us to generate the gRPC code.   
+
+1. When you need to build a gRPC service, first clone this repository to your workspace. 
 2. Define your API interface and DTO (Data Transfer Object) in proto files in `src/main/proto`.
-3. Use one of the following commands to generate your artifact, that's it.
+3. Use one of the following commands to generate your artifact.
+4. Include the packaged artifact in your project.
 
 ### Compile and install the artifact to your local Maven repo.
 If you are just in developing your service and do not need to deploy the artifact to anywhere else. The following command would compile and install the package jar into your local repository.
