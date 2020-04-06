@@ -1,6 +1,6 @@
 # grpc-sample-api
 
-This project is mean for make the gRPC code generation easy.
+This project tries to make the gRPC code generation easy.
 
 ## How to use
 Since each of the Java app using gRPC should separate API interfaces from the actual implementation, it would be convenient if we use a scaffold project for helping us to generate the gRPC code.   
